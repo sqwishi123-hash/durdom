@@ -23,8 +23,6 @@
 
 Вот пример кода, который лежит в основе программы:
 ```python
-import re
-
 def check_password_strength(password):
     if len(password) < 8:
         print("Пароль слишком короткий! Нужно минимум 8 символов.")
